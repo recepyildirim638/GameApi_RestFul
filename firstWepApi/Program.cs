@@ -6,6 +6,7 @@ using NLog;
 using System.Collections.Generic;
 using Services.Contracts;
 using Microsoft.AspNetCore.Mvc;
+using Presentation.ActionFilters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,8 @@ builder.Services.AddControllers(config =>
     .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
     .AddNewtonsoftJson();
 
+
+
 builder.Services.Configure<ApiBehaviorOptions>(options => 
 { 
     options.SuppressModelStateInvalidFilter = true;
@@ -33,9 +36,11 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfigureRepositryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.ConfigureActionFilters();
+
 //builder.Services.AddDbContext<RepositoryContext>(options => 
 //options.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
-builder.Services.AddAutoMapper(typeof(Program));
 
 
 var app = builder.Build();
