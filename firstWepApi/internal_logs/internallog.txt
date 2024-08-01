@@ -58,3 +58,19 @@
 2024-07-29 18:42:40.7383 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
 2024-07-29 18:42:40.7466 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mypc\Documents\WepApi\basic\firstWepApi\nlog.config
 2024-07-29 18:42:40.7549 Info Configuration initialized.
+2024-07-31 17:36:03.7933 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-07-31 17:36:03.8455 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-07-31 17:36:03.8531 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mypc\Documents\WepApi\basic\firstWepApi\nlog.config
+2024-07-31 17:36:03.8531 Info Configuration initialized.
+2024-07-31 17:39:48.9698 Info AppDomain Shutting down. LogFactory closing...
+2024-07-31 17:39:48.9698 Info LogFactory has been closed.
+2024-07-31 17:47:45.9356 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-07-31 17:47:45.9516 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-07-31 17:47:45.9516 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mypc\Documents\WepApi\basic\firstWepApi\nlog.config
+2024-07-31 17:47:45.9678 Info Configuration initialized.
+2024-07-31 19:21:01.1764 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-07-31 19:21:01.1861 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-07-31 19:21:01.1861 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mypc\Documents\WepApi\basic\firstWepApi\nlog.config
+2024-07-31 19:21:01.1986 Info Configuration initialized.
+2024-07-31 19:23:28.2857 Info AppDomain Shutting down. LogFactory closing...
+2024-07-31 19:23:28.2917 Info LogFactory has been closed.
