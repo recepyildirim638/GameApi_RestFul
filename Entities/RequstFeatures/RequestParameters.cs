@@ -18,6 +18,5 @@ namespace Entities.RequstFeatures
 			get { return _pageSize; }
 			set { _pageSize = value > maxPageSize ? maxPageSize : value; }
 		}
-
 	}
 }
