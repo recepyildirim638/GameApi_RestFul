@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Entities.DataTransferObject;
+using Microsoft.EntityFrameworkCore;
 using Presentation.ActionFilters;
 using Repositories.Contracts;
 using Repositories.EfCore;
@@ -39,6 +40,11 @@ namespace firstWepApi.Extentions
                  .AllowAnyHeader()
                  .WithExposedHeaders("X-Pagination"));
             }) ;
+        }
+
+        public static void ConfigureDataShapper(this IServiceCollection services)
+        {
+            services.AddScoped<IDataShaper<BookDto>, DataShaper<BookDto>>();
         }
     }
 }

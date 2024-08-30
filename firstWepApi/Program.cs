@@ -39,7 +39,7 @@ builder.Services.ConfigureLoggerService();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.ConfigureActionFilters();
 builder.Services.ConfigureCors();
-
+builder.Services.ConfigureDataShapper();
 //builder.Services.AddDbContext<RepositoryContext>(options => 
 //options.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
 
