@@ -100,3 +100,11 @@
 2024-08-29 16:46:40.6779 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
 2024-08-29 16:46:40.6855 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mypc\Documents\WepApi\basic\firstWepApi\nlog.config
 2024-08-29 16:46:40.6855 Info Configuration initialized.
+2024-08-29 17:09:12.8859 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-29 17:09:12.9012 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-29 17:09:12.9094 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mypc\Documents\WepApi\basic\firstWepApi\nlog.config
+2024-08-29 17:09:12.9171 Info Configuration initialized.
+2024-08-30 18:43:20.9311 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-30 18:43:20.9762 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-30 18:43:20.9845 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mypc\Documents\WepApi\basic\firstWepApi\nlog.config
+2024-08-30 18:43:20.9845 Info Configuration initialized.

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
 using Entities.RequstFeatures;
+using Repositories.EfCore.Extensions;
 
 namespace Repositories.EfCore
 {
@@ -17,7 +18,8 @@ namespace Repositories.EfCore
         {
             var books = await FindAll(trackChanges)
                .FilterBooks(bookParameters.MinPrice, bookParameters.MaxPrice)
-               .OrderBy(b => b.Id)
+               .Search(bookParameters.SearchTerm)
+               .Sort(bookParameters.OrderBy)
                .ToListAsync();
 
             return PagedList<Book>
@@ -27,6 +29,5 @@ namespace Repositories.EfCore
             await FindByCondition(b => b.Id.Equals(id), trackChanges)
            .SingleOrDefaultAsync();    
         public void UpdateOneBook(Book book) => Update(book);
-    
     }
 }
